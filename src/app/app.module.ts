@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CustomIfDirective } from './custom-if.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomIfDirective
   ],
   imports: [
     BrowserModule
